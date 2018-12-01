@@ -1,0 +1,119 @@
+body {
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+.navbar-default .navbar-brand {
+	color:#fff;
+	font-size: 20px;
+}
+
+.navbar-default .navbar-brand:hover {
+	color:#fff;
+	font-size: 20px;
+}
+
+.navbar{
+    border-radius: 0;
+    border: none;
+    background-color: #003355;
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+.navbar-default .navbar-nav >li > a{
+    color: #fff;
+}
+
+.navbar-default .navbar-nav >li > a:hover{
+    color: #fff;
+}
+
+table#attendance {
+    margin: 14px 0px 10px 0px;
+    width: 100%;
+    table-layout:fixed;
+    border-collapse: collapse;
+    border: solid 2px #808080;/*表全体を線で囲う*/
+}
+
+#attendance th {
+    text-align: center;
+    border: solid 1px #C0C0C0;
+    padding: 10px;/*上下左右10pxずつ*/
+    color: #FFFFFF;/*文字色*/
+    background: #6495ED;/*背景色*/
+}
+
+#attendance td {
+    text-align: center;
+    border: solid 1px #C0C0C0;
+    padding: 10px 10px;/*上下3pxで左右10px*/
+}
+
+#attendance th.place {
+    width: 7em;
+}
+
+th.time {
+    width: 28em;
+}
+
+th.remarks {
+    width: 22em;
+}
+
+
+table#attendance2 {
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    table-layout:fixed;
+    border-collapse: collapse;
+    border: solid 2px #808080;/*表全体を線で囲う*/
+}
+
+#attendance2 th {
+    text-align: center;
+    border: solid 1px #C0C0C0;
+    padding: 10px;/*上下左右10pxずつ*/
+    color: #FFFFFF;/*文字色*/
+    background: #6495ED;/*背景色*/
+}
+
+#attendance2 td {
+    text-align: center;
+    border: solid 1px #C0C0C0;
+    padding: 10px 10px;/*上下3pxで左右10px*/
+}
+
+
+input[readonly].form-control{
+    background-color:#fff;
+}
+
+textarea[readonly].form-control{
+    background-color:#fff;
+}
+
+#contents {
+    z-index: 0;
+    font-size: 16px;
+  }
+  .page-txt {
+    margin: 30px 0 0;
+    height: 2000px;
+  }
+  #modal-open {
+    color: #cc0000;
+  }
+  /* モーダル */
+  #overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
